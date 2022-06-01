@@ -6,6 +6,9 @@
 
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
+
+    <h5>Your total comes to <%= number_to_currency(@order.total_cents / 100, precision: 2) %>
+    <p>Order email: <%= @order.email%> </p>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
