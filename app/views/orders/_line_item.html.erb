@@ -1,0 +1,8 @@
+
+<tr>
+  <td><%= image_tag product.image.tiny.url %></td>
+  <td><%= product.name %></td>
+  <td><%= product.description %></td>
+  <td><%= quantity %></td>
+  <td><%= number_to_currency(total / 100, precision: 2) %></td>
+</tr>
