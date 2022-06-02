@@ -6,9 +6,9 @@ class UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       session[:user_id] = user.id
-      root_url
+      redirect_to root_url, notice: "Signup successful"
     else
-      new_user_url
+      redirect_to new_user_url, alert: "Signup unsuccessful"
     end
   end
 
