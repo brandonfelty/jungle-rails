@@ -11,7 +11,7 @@
     <a class="navbar-brand" href="<%= root_path %>">Jungle</a>
     <% if current_user %>
     
-      Signed in as <%= current_user.name %> | 
+      Signed in as <%= current_user.first_name %> <%= current_user.last_name %> | 
         <%= form_tag session_path(current_user.id), method: "DELETE" do %>
           <%= submit_tag "Logout" %>
         <% end %>
