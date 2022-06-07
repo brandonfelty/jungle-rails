@@ -4,9 +4,9 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Final Product
 
-!["Home Page"](https://github.com/brandonfelty/scheduler/blob/master/docs/Editing.png)
-!["Products"](https://github.com/brandonfelty/scheduler/blob/master/docs/Confirm.png)
-!["Admin Page - New Product"](https://github.com/brandonfelty/scheduler/blob/master/docs/Error.png)
+!["Home Page"](https://github.com/brandonfelty/jungle-rails/blob/master/docs/Home-Page.png?raw=true)
+!["Products"](https://github.com/brandonfelty/jungle-rails/blob/master/docs/Home-Page.png?raw=true)
+!["Admin Page - New Product"](https://github.com/brandonfelty/jungle-rails/blob/master/docs/Admin.png?raw=true)
 
 ## Setup
 
