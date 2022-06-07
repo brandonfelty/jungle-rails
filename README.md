@@ -2,6 +2,12 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Final Product
+
+!["Home Page"](https://github.com/brandonfelty/scheduler/blob/master/docs/Editing.png)
+!["Products"](https://github.com/brandonfelty/scheduler/blob/master/docs/Confirm.png)
+!["Admin Page - New Product"](https://github.com/brandonfelty/scheduler/blob/master/docs/Error.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
