@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1 for where I learned a lot about Rails by taking over an existing code base.
 
 ## Final Product
 
