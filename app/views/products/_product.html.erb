@@ -7,7 +7,7 @@
     </h1>
   <% end%>
   <div>
-    <% if product.quantity == 0 %>          
+    <% if product.soldout?(product.quantity)%>          
       <button class="soldout">Sold Out</button>
       <button class="btn" id="hide" type="button">
         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
